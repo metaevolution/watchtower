@@ -10,15 +10,15 @@ WatchTower functions as a client/server application, enabling numerous clients t
 
 ### Overall Status
 
-![WatchTower Console Overall Status](./docs/images/Screenshot3.png)
+![WatchTower Console Overall Status](https://raw.githubusercontent.com/metaevolution/watchtower/main/docs/images/Screenshot3.png)
 
 ### Table View
 
-![WatchTower Console Table View](./docs/images/Screenshot2.png)
+![WatchTower Console Table View](https://raw.githubusercontent.com/metaevolution/watchtower/main/docs/images/Screenshot2.png)
 
 ### Tree View
 
-![WatchTower Console Tree View](./docs/images/Screenshot1.png)
+![WatchTower Console Tree View](https://raw.githubusercontent.com/metaevolution/watchtower/main/docs/images/Screenshot1.png)
 
 # Monitor Types
 
