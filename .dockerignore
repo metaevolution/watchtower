@@ -1,0 +1,16 @@
+# Exclude specific files or directories using patterns
+node_modules
+*.log
+
+# Exclude all files and directories starting with a dot
+.*
+
+!.env
+
+__*
+coverage.xml
+docs/
+htmlcov/
+kubernetes/
+*.egg-info
+backups

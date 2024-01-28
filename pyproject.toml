@@ -1,0 +1,47 @@
+# pyproject.toml
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "watchtower"
+version = "0.1.0"
+description = "Lightweight system monitoring dashboard"
+readme = "README.md"
+authors = ["Brandon Archer <@.com>"]
+license = "MIT"
+python = "^3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.scripts]
+watchtower-server = "watchtower.server:run"
+watchtower-console = "watchtower.console:run"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "~13.7"
+textual = "~0.47"
+selenium = "~4.17"
+pyping = "^0.0.6"
+apscheduler = "~3.10" 
+Flask = "~3.0"
+flask-cors ="~4.0"
+requests = "~2.31"
+dnspython = "~2.5"
+httpx = "~0.26"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+pytest-cov = "*"
+
+[tool.poetry.optional-dependencies]
+# Add your optional dependencies here
+
+#[tool.setuptools_scm]
+#version_file = "src/watchtower/_version.py"

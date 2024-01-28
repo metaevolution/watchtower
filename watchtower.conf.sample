@@ -1,0 +1,68 @@
+{
+    "config_version": 3,
+    "hosts": [
+        {
+            "name": "Example.com",
+            "group": "Example Group 1",
+            "target": "example.com",
+            "checks": [
+                {
+                    "type": "ping",
+                    "enabled": true,
+                    "display_name": "Ping Test",
+                    "interval": 15,
+                    "options": {}
+                },
+                {
+                    "type": "dns",
+                    "enabled": true,
+                    "display_name": "DNS Test",
+                    "interval": 5,
+                    "options": {}
+                }                   
+            ]
+        },
+        {
+            "name": "Example.com",
+            "group": "Example Group 1",
+            "target": "noexists.example.com",
+            "checks": [
+                {
+                    "type": "ping",
+                    "enabled": true,
+                    "display_name": "Ping Test",
+                    "interval": 5,
+                    "options": {}
+                },
+                {
+                    "type": "dns",
+                    "enabled": true,
+                    "display_name": "DNS Test",
+                    "interval": 5,
+                    "options": {}
+                }                
+            ]
+        },
+        {
+            "name": "Example.com",
+            "group": "Example Group 2",
+            "target": "noexists.example.com",
+            "checks": [
+                {
+                    "type": "ping",
+                    "enabled": true,
+                    "display_name": "Ping Test",
+                    "interval": 5,
+                    "options": {}
+                },
+                {
+                    "type": "ping",
+                    "enabled": true,
+                    "display_name": "Ping Test",
+                    "interval": 5,
+                    "options": {}
+                }                
+            ]
+        }        
+    ]
+}
